@@ -1,0 +1,32 @@
+services.msc
+
+
+ Remove-Service -Name "YourServiceName"
+sc.exe delete "YourServiceName"
+
+sc stop "HAL"
+sc delete "HAL"
+sc QUERY "HAL" | findstr /i "STATE"
+DEL /F /Q /S C:\Directory\*.*
+taskkill /f /fi "SERVICES eq HAL"
+
+Visual Studio
+Update Extension -> onine -> tools -> setup and deplyapplica
+
+
+"[TARGETDIR]"
+innerclass = false
+
+
+c:\Applics\Cockpit\Hal\server
+
+[ProgramFiles64Folder][Manufacturer]\[ProductName]
+
+
+innerclass = false
+INSTALL "[TARGETDIR]"
+ROLLBACK "[TARGETDIR]"
+UNINSTALL "[TARGETDIR]"
+
+
+
